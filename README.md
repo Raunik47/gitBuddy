@@ -1,29 +1,38 @@
-# Create T3 App
+# gitBuddy
+GitBuddy is an AI-powered developer collaboration platform that enables teams to understand, analyze, and query entire codebases using advanced AI technology. Think of it as a smart companion for your GitHub repositories that can answer questions, summarize changes, and extract insights from your code.
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+🚀 Core Features
+AI-Powered Code Q&A: Ask natural language questions about your entire codebase and get accurate answers with 100% context accuracy
 
-## What's next? How do I make an app with this?
+Commit Summaries: Automatically generate AI explanations of code changes from your commit history
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+Meeting Intelligence: Upload meeting recordings to get automated transcriptions and actionable summaries
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+Smart Repository Analysis: Connect public or private GitHub repos for comprehensive AI analysis
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+🛠️ Tech Stack
+Frontend: Next.js 15 with TypeScript & Tailwind CSS
 
-## Learn More
+Backend: T3 Stack (tRPC, Prisma, Next.js App Router)
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+AI/ML: Google Gemini AI + LangChain RAG pipeline
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+Database: PostgreSQL with PGVector for embeddings
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+Infrastructure: Vercel deployment, Firebase Storage, Stripe payments
 
-## How do I deploy this?
+Authentication: Clerk for secure user management
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+🎯 Perfect For
+Development teams wanting to accelerate onboarding
+
+Open-source maintainers managing complex projects
+
+Tech leads needing insights across multiple repositories
+
+Remote teams wanting meeting intelligence alongside code context
+
+✨ Why GitBuddy?
+Unlike basic code search tools, GitBuddy implements a production-ready Retrieval Augmented Generation (RAG) system that understands your code's context, architecture, and relationships. It's like having a senior developer available 24/7 to answer questions about your codebase.
+
+Quick Start: Connect a GitHub repo → AI processes your code → Start asking questions → Get instant, accurate answers with code references.
